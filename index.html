@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">
+      Thank you for taking the time to help us improve the platform
+    </p>
+    <form id="survey-form" method="post">
+      <fieldset>
+        <label id="name-label" for="name"
+          >Name
+          <input
+            id="name"
+            name="name"
+            type="text"
+            placeholder="Enter your name"
+            required
+        /></label>
+
+        <label id="email-label" for="email"
+          >Email
+          <input
+            id="email"
+            name="email"
+            type="email"
+            placeholder="Enter your Email"
+            required
+        /></label>
+
+        <label id="number-label" for="age"
+          >Age (optional)
+          <input
+            id="number"
+            name="age"
+            type="number"
+            placeholder="Age"
+            min="10"
+            max="99"
+        /></label>
+
+        <label id="current-role" for="current-role"
+          >Which option best describes your current role?
+          <select id="dropdown" name="current role">
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="2">Full Time Job</option>
+            <option value="3">Full Time Learner</option>
+            <option value="4">Prefer not to say</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+
+        <label id="recommend-label" for="recommendation"
+          >Would you recommend freeCodeCamp to a friend?
+
+          <br />
+          <input
+            id="recommend-label1"
+            class="inline"
+            type="radio"
+            value="Radio"
+            required
+            name="recommendation"
+          />Definitely
+
+          <br />
+          <input
+            id="recommend-label2"
+            class="inline"
+            type="radio"
+            value="Radio"
+            required
+            name="recommendation"
+          />Maybe
+
+          <br />
+          <input
+            id="recommend-label3"
+            class="inline"
+            type="radio"
+            value="Radio"
+            required
+            name="recommendation"
+          />Not sure
+        </label>
+
+        <label id="favorite-feature" for="favorite-feature"
+          >What is your favorite feature of freeCodeCamp?
+          <select id="dropdown1" name="favorite feature">
+            <option value="">Select an option</option>
+            <option value="1">Challenges</option>
+            <option value="2">Projects</option>
+            <option value="3">Community</option>
+            <option value="4">Open Source</option>
+          </select>
+        </label>
+
+        <label id="improvements" for="improvements"
+          >What would you like to see improved? (check all that apply)
+
+          <br />
+          <input
+            id="improvements1"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Front-end Projects
+
+          <br />
+          <input
+            id="improvements2"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Back-end Projects
+
+          <br />
+          <input
+            id="improvements3"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Data Visualization
+
+          <br />
+          <input
+            id="improvements4"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Challenges
+
+          <br />
+          <input
+            id="improvements5"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Open Source Community
+
+          <br />
+          <input
+            id="improvements6"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Gitter help rooms
+
+          <br />
+          <input
+            id="improvements7"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Videos
+
+          <br />
+          <input
+            id="improvements8"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />City Meetups
+
+          <br />
+          <input
+            id="improvements9"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Wiki
+
+          <br />
+          <input
+            id="improvements10"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Forum
+
+          <br />
+          <input
+            id="improvements11"
+            class="inline1"
+            type="checkbox"
+            value="Checkbox"
+            required
+            name="improvement"
+          />Additional Courses
+        </label>
+
+        <label id="comments" for="comments"
+          >Any comments or suggestions?
+
+          <br />
+          <textarea
+            id="comment"
+            name="comments"
+            rows="3"
+            cols="30"
+            placeholder="Enter your comments here..."
+          ></textarea>
+        </label>
+
+        <input id="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+
+    <footer>
+      <p id="footer-end">
+        <strong>
+          Not affiliated to freeCodeCamp in any way - all code above was
+          completed within course project
+        </strong>
+      </p>
+    </footer>
+
+    <!-- If i was to do this again, i'd have these in <div> classes and also use h1/p's for all headers throughout the form etc.  -->
+  </body>
+</html>

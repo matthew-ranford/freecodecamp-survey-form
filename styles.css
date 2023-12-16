@@ -1,0 +1,144 @@
+body {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.7) 70%
+    ),
+    url('Images/survey_background.jpg');
+  max-width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 35px;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-style: italic;
+  font-size: 20px;
+}
+
+form {
+  width: 90vw;
+  max-width: 800px;
+  min-width: 100px;
+  margin: auto;
+  /* padding-bottom: 4em; */
+  background-color: rgba(6, 11, 95, 0.445);
+}
+
+fieldset {
+  color: whitesmoke;
+}
+
+#name-label,
+#email-label,
+#number-label,
+#current-role,
+#recommend-label,
+#favorite-feature,
+#improvements,
+#comments {
+  display: block;
+  margin: 0.5rem;
+  padding: 0.5em;
+  min-height: 2em;
+  font-size: 20px;
+}
+
+input,
+/* select, */
+#name,
+#email,
+#number
+/*#currentRole */ {
+  min-height: 2em;
+  margin: 10px 0 0 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+#dropdown,
+#dropdown1 {
+  display: block;
+  width: 101%;
+  font-size: 17px;
+  margin: 5px 0 0 0;
+  /* margin: 0.5rem; */
+  padding: 0.5rem;
+}
+
+select {
+  min-height: 2.4em;
+  margin: 10px 0 0 0;
+  width: 100%;
+  font-size: 16px;
+  text-align: center;
+}
+
+option {
+  font-size: 20px;
+  background-color: black;
+  color: white;
+}
+
+#recommend-label1,
+#recommend-label2,
+#recommend-label3,
+.inline {
+  display: inline-block;
+  margin: 0.5rem;
+  margin-top: 5px;
+  padding: 1em;
+  min-height: 2em;
+  width: unset;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+#improvements1,
+#improvements2,
+#improvements3,
+#improvements4,
+#improvements5,
+#improvements6,
+#improvements7,
+#improvements8,
+#improvements9,
+#improvements10,
+#improvements11,
+.inline1 {
+  display: inline-block;
+  margin: 0.5rem;
+  margin-top: 5px;
+  padding: 1em;
+  min-height: 2em;
+  width: unset;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+#comment {
+  margin-top: 10px;
+  width: 98%;
+  height: 150px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+input[type='submit'] {
+  margin: 0.95rem;
+  padding: 0.5em;
+  width: 97%;
+  background-color: mediumseagreen;
+  color: white;
+  font-size: 18px;
+}
